@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*.container{
+    max-width: 80vw;
+}*/
+
+body {
+  background-color: darksalmon;
+}
+
+.navbar {
+  display: flex;
+  height: 67px;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+
+.topleft {
+  width: 50%;
+}
+
+.topright {
+  width: 50%;
+}
+
+.section1 {
+  max-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section1 h1 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(39, 39, 175);
+}
+
+
+
+.logo {
+  font-size: 1.4rem;
+}
+
+.dumbbell {
+  width: 400px;
+}
+
+.topright .gymimg {
+  width: 500px;
+}
+
+.btn {
+  background-color: blue;
+  border: white;
+  border-radius: 26px;
+  color: white;
+}
+
+.section2 h1 {
+  font-size: 2.5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 15px;
+}
+
+.section2 {
+  padding: 35px;
+}
+
+.section2 p {
+  padding: 0 8vw;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.box h2 {
+  font-size: 2rem;
+  padding: 12px 0;
+}
+.box {
+  margin: 12px 22px;
+  padding: 8px 0;
+  min-width: 20vw;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.highlighted {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.box ul {
+  list-style: none;
+}
+
+.box ul li {
+  margin: 12px 2px;
+}
+
+.plantable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 table {
+  width: 100%;
+  margin-bottom: 140px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.section3 table th {
+  width: 23vw;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+
+.section3 table td {
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+
+.section3 h1 {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+
+.section3 {
+  padding: 25px;
+}
+
+footer {
+  padding: 20px;
+}
+
+.box {
+  box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7),
+    1px 2px 4px 0px rgba(0, 255, 255, 0.7),
+    2px 4px 8px 0px rgba(0, 255, 255, 0.7),
+    2px 4px 16px 0px rgba(0, 255, 255, 0.7);
+  background-color: black;
+}
+
+.box ul li {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.box h2 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+.btnnew {
+  background-color: #1c72f2eb;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: whitesmoke;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 12px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btnnew :hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+footer a{
+  margin-left: 15px;
+}
